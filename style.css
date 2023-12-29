@@ -125,3 +125,21 @@ h3{
     margin-bottom: 10px;
     margin-left:25px;
 }
+
+
+.img_week5 {
+    max-width: 50%;
+    height: auto; 
+    display: block; 
+    margin: auto; 
+}
+
+.img_week4 {
+    max-width: 50%;
+    height: auto; 
+    display: block; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
