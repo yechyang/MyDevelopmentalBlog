@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header w3-include-html="header.html"></header>
+    <article style="margin-top:98px">
+        <h2> Week 3 Blog</h2>
+        <h3> What I Learnt This Week</h3>
+        <ul>
+            <li>Creating a form</li>
+            <li>I learnt the various input type eg.text,date,color,checkbox</li>
+            <li>I learnt how to use validations using required at the end</li>
+            <li>Understanding the CSS box model under the inspect</li>
+            <li>Learning media queries</li>
+            <li>Learning the different positions</li>
+        </ul>
+        <br>
+        <h3> Activity This Week:</h3>
+        <ul>
+            <li>CA1: Creating a form with some requirements</li>
+            <li>CA2: Changing the position of the logo</li>
+            <li>CA3: Flexbot to create a responsive box layout</li>
+        </ul>
+        <h1 style="text-align: center;margin-top:50px">Example:</h1>
+        <div class="week3-Container">
+            <div class="week3-box">
+                <div class="inputbox">
+                    <label>Text:
+                        <input type="text" placeholder="Text">
+                    </label>
+                </div>
+                <div class="inputbox">
+                    <label>Date:
+                        <input type="date" placeholder="Date">
+                    </label>
+                </div>
+                <div class="inputbox">
+                    <label>Color:
+                        <input type="color" placeholder="color">
+                    </label>
+                </div>
+                <div class="inputbox">
+                    <label>File:
+                        <input type="file" placeholder="file">
+                    </label>
+                </div>
+                <div class="inputbox">
+                    <label>Radio:</label><br><br>
+                    <input type="radio" name="aa" value="radio1"> radio1 <br>
+                    <input type="radio" name="aa" value="radio2"> radio2
+                </div>
+                <div class="inputbox">
+                    <label>Checkbox:</label><br><br>
+                    <input type="checkbox" name="aa" value="checkbox1"> checkbox1 <br>
+                    <input type="checkbox" name="aa" value="checkbox2"> checkbox2
+                </div>
+                <div class="inputbox">
+                    <label>Textarea:</label><br>
+                    <textarea class="textarea-style" placeholder="Textarea"></textarea>
+                </div>
+                <div class="inputbox">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <script src="w3-include-HTML.js"></script> 
+    <script>
+      includeHTML();
+    </script>
+</body>
+</html>

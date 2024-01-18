@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#fafdf3
+    background-color:#fefffb
 }
 
 html{
-    background-color: beige;
+    background-color: #fefffb;
 }
 h2{
     border: 1.5px; border-style:solid; border-color: black;
@@ -26,6 +26,29 @@ h3{
     margin-left:20px;
 }
 
+#myNavbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: height 0.3s;
+}
+
+#myNavbar.navbar:hover {
+    height: auto;
+    background-color: gray;
+}
+
+#myNavbar .navbar-brand {
+    margin-right: 40px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+#myNavbar .navbar-nav .nav-link { 
+    font-size: 16px;
+}
+
 
 .dev-background{
     background-image: url('image/man-wooden-cubes-table-management-concept.jpg');
@@ -36,7 +59,7 @@ h3{
     margin: 0;
     padding: 0;
     position: relative;
-    height: 60vh;
+    height: 100vh;
     display:block;
 }
 
@@ -59,7 +82,7 @@ h3{
 
 .week3-box{
     width: 800px;
-    height: 920px;
+    height: 1070px;
     border: 2px solid black;
     border-radius: 25px;
     background-color: rgba(62, 62, 62, 0.4);
