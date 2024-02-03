@@ -19,8 +19,8 @@ h2{
 }
 ul{
     font-size: 18px;
-    margin-left:20px;
 }
+
 h3{
     font-size: 21px;
     margin-left:20px;
@@ -40,7 +40,7 @@ h3{
 }
 
 #myNavbar .navbar-brand {
-    margin-right: 40px;
+    margin-right: 30px;
     margin-left: 25px;
     font-size: 18px;
 }
@@ -49,6 +49,15 @@ h3{
     font-size: 16px;
 }
 
+#myNavbar .navbar-nav {
+    flex-wrap: wrap;
+}
+
+#myNavbar .navbar-nav .nav-item {
+    flex: 0 0 20%; /* Adjust this value as needed to control the number of items per row */
+    max-width: 10%; /* Adjust this value as needed to control the number of items per row */
+    text-align: center;
+}
 
 .dev-background{
     background-image: url('image/man-wooden-cubes-table-management-concept.jpg');
@@ -165,4 +174,10 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
     border: 3px solid black;
+}
+
+.lottie{
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
